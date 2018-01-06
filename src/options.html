@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="styles/index.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>manabu | settings</title>
+</head>
+<body>
+  <main class="main">
+    <header>
+      <h1>manabu | settings</h1>
+    </header>
+    <section class="content options">
+      <h2>Learn</h2>
+      <div class="block">
+          <h4>Hiragana</h4>
+          <input class="kana-choice" type="radio" name="radio" value="1">
+          <div class="switch"></div>
+      </div>
+      <div class="block">
+          <h4>Katakana</h4>
+          <input class="kana-choice" type="radio" name="radio" value="2">
+          <div class="switch"></div>
+      </div>
+      <div class="block">
+          <h4>Hiragana + Katakana</h4>
+          <input class="kana-choice" type="radio" name="radio" value="3">
+          <div class="switch"></div>
+      </div>
+      <h2>Options</h2>
+      <div class="block">
+        <h4>Dark theme</h4>
+        <input type="checkbox" class="options-darkmode" id="darkmode-checkbox" name="darkmode">
+        <div class="switch"></div>
+      </div>
+      <div class="block">
+        <h4>Automatic refresh</h4>
+        <input type="checkbox" class="options-refresh" id="refresh-checkbox" name="refresh">
+        <div class="switch"></div>
+      </div>
+    </section>
+    <footer>
+      <p>created by</p>
+      <a href="https://www.facebook.com/aroe.medium/" data-icon="b"></a>
+      <p class="kana">媒質</p>
+    </footer>
+  </main>
+
+  <script src="scripts/options.js"></script>
+</body>
+</html>

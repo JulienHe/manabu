@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:300,400,500,700');
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "manabu";
+  src:url("../fonts/manabu.eot");
+  src:url("../fonts/manabu.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/manabu.woff") format("woff"),
+    url("../fonts/manabu.ttf") format("truetype"),
+    url("../fonts/manabu.svg#manabu") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "manabu" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="manabu-"]:before,
+[class*=" manabu-"]:before {
+  font-family: "manabu" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.manabu-settings-black:before {
+  content: "\61";
+}
+.manabu-aroe:before {
+  content: "\62";
+}

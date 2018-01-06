@@ -57,3 +57,10 @@ typings/
 # dotenv environment variables file
 .env
 
+node_modules
+temp
+.tmp
+dist
+.sass-cache
+.DS_Store
+build
