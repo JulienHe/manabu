@@ -1,8 +1,8 @@
 {
   "name": "manabu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
-  "description": "manabu helps you to learn hiragana, katakana, kanji(soon) while you are browsing.",
+  "description": "manabu helps you to learn hiragana, katakana, kanji(soon) while browsing.",
   "icons": {
     "16": "icons/icon-16.png",
     "128": "icons/icon-128.png"

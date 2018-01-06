@@ -24,5 +24,5 @@ The following tasks can be used when you want to start developing the extension 
 Run `npm run dist` to create a zipped, production-ready extension for each browser. You can then upload that to the appstore.
 
 ## TODO
-- [ ] Fix height
+- [X] Fix height
 - [ ] Add information about kana
